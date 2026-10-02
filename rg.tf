@@ -7,5 +7,11 @@ resource "azurerm_resource_group"  "rg" {
   }
 }
 
+resource "azurerm_resource_group" "rg1" {
+
+  name = "name1" 
+  location = "central india"
+
+}
 
 
